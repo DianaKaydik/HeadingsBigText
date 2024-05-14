@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 1.375;
+}
+
+h2 {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.375;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+a.special:visited {
+    color: #a55858;
+}
+
+ul {
+    margin: 0.3em 0 0 1.6em;
+    list-style: none;
+    padding: 0;
+}
+
+ol {
+    margin: 0.3em 0 0 3.2em;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.1em;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+figure {
+    margin: 0 10px 0 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 11px;
+}
